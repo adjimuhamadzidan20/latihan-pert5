@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="adjimuhamadzidan">
+    <link rel="icon" href="Unindra.png">
+    <title>latihan 5</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            width: 60%;
+            /* background: lightgray; */
+            margin: auto;
+        }
+
+        .header .logo {
+            float: left;
+            /* background-color: aqua; */
+        }
+
+        .header .title h1, p {
+            text-align: center;
+            /* background-color: grey; */
+        }
+
+        .header .title h1 {
+            font-size: 28px;
+        }
+
+        .header .title p {
+            font-style: oblique;
+            font-weight: bold;
+        }
+
+        .container .line {
+            height: 8px;
+            background-color: darkblue;
+            margin-top: 50px;
+        }
+
+        .container .sub-title h2 {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .form table {
+            margin: auto;
+            font-weight: bold;
+        }
+
+        .form textarea {
+            width: 375px;
+            height: 100px;
+        }
+
+        .form .button {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .form #TANGGALLAHIR {
+            width: 168px;
+        }
+
+        .form #titik {
+            padding: 0 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="Unindra.png" alt="Unindra" width="200">
+            </div>
+            <div class="title">
+                <h1>UNIVERSITAS INDRAPRASTA PGRI<br>(UNINDRA)</h1>
+                <p>JL. Nangka No.58 Tanjung Barat - Jaksel</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="sub-title">
+            <h2>BIODATA MAHASISWA</h2>
+        </div>
+        <div class="form">
+            <table>
+                <tr>
+                    <td><label for="Nama">NAMA</label></td>
+                    <td id="titik">:</td>
+                    <td><input type="text" name="Nama" id="Nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">ALAMAT</label></td>
+                    <td id="titik">:</td>
+                    <td><textarea name="Alamat" id="Alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="TANGGALLAHIR">TANGGAL LAHIR</label></td>
+                    <td id="titik">:</td>
+                    <td><input type="date" name="TANGGAL LAHIR" id="TANGGALLAHIR"></td>
+                </tr>
+                <tr>
+                    <td><label for="TELP">TELP</label></td>
+                    <td id="titik">:</td>
+                    <td><input type="text" name="TELP" id="TELP"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">EMAIL</label></td>
+                    <td id="titik">:</td>
+                    <td><input type="email" name="Email" id="Email"></td>
+                </tr>
+            </table>
+            <div class="button">
+                <a href="#"><input type="button" value="SIMPAN"></a>
+                <a href="#"><input type="button" value="BATAL"></a>
+            </div>  
+        </div> 
+    </div>
+</body>
+</html>
